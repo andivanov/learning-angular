@@ -1,18 +1,22 @@
+// importing components
 import { Component } from 'angular2/core';
+import { ProductListComponent } from './product/product-list.component';
 
 
 // decorator
 @Component({
     selector: 'pm-app',
-    template: `
+    template: 
+        `
         <div>
             <h1>{{pageTitle}}</h1>
-            <p>My first component</p>
-        </div>`
+            <pm-products></pm-products>
+        </div>
+        `,
+    directives: [ProductListComponent]
 })
-
 
 // class
 export class AppComponent {
-    pageTitle: string = 'This is a page title';
+    pageTitle: string = 'Main Title';
 }
