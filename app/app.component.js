@@ -29,7 +29,7 @@ System.register(['angular2/core', './product/product-list.component'], function(
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'pm-app',
-                        template: "\n        <div>\n            <h1>{{pageTitle}}</h1>\n            <pm-products></pm-products>\n        </div>\n        ",
+                        template: "\n        <div>\n            <h1>{{pageTitle}}</h1>\n            <pm-products></pm-products>\n        </div>",
                         directives: [product_list_component_1.ProductListComponent]
                     }), 
                     __metadata('design:paramtypes', [])

@@ -6,13 +6,11 @@ import { ProductListComponent } from './product/product-list.component';
 // decorator
 @Component({
     selector: 'pm-app',
-    template: 
-        `
+    template: `
         <div>
             <h1>{{pageTitle}}</h1>
             <pm-products></pm-products>
-        </div>
-        `,
+        </div>`,
     directives: [ProductListComponent]
 })
 
