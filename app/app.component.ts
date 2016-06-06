@@ -1,6 +1,6 @@
 // importing components
 import { Component } from 'angular2/core';
-import { ProductListComponent } from './product/product-list.component';
+import { ProductListComponent } from './products/product-list.component';
 
 
 // decorator
